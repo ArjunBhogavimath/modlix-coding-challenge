@@ -24,15 +24,15 @@ public class PIMain {
             case 2:
                 System.out.print("Enter sequence to search: ");
                 String sequence1B = scanner.nextLine();
-                int index1B = LargePiSearch.searchIn1BillionPi(sequence1B);
+                int index1B = PiSearch1B.searchIn1BillionPi(sequence1B);
                 System.out.println("Index: " + index1B);
                 break;
 
-            case 3:
-                System.out.print("Enter number of digits to generate: ");
-                int digits = scanner.nextInt();
-                System.out.println("Pi: " + PiGenerator.computePi(digits));
-                break;
+//            case 3:
+//                System.out.print("Enter number of digits to generate: ");
+//                int digits = scanner.nextInt();
+//                System.out.println("Pi: " + PiGenerator.computePi(digits));
+//                break;
 
             default:
                 System.out.println("Invalid choice!");
