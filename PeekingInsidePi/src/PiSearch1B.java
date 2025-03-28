@@ -10,7 +10,7 @@ public class PiSearch1B {
     public static int searchIn1BillionPi(String sequence) {
         try {
             BufferedReader reader = new BufferedReader(new FileReader("data/1b-pi-digit.txt"));
-            int chunkSize = 10_000_000; // Read in 10MB chunks
+            int chunkSize = 10_000_000; // Reads 10 million characters at a time
             char[] buffer = new char[chunkSize];
             int indexOffset = 0;
             String remaining = "";
