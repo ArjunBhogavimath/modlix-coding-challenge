@@ -28,11 +28,11 @@ public class PIMain {
                 System.out.println("Index: " + index1B);
                 break;
 
-//            case 3:
-//                System.out.print("Enter number of digits to generate: ");
-//                int digits = scanner.nextInt();
-//                System.out.println("Pi: " + PiGenerator.computePi(digits));
-//                break;
+            case 3:
+                System.out.print("Enter number of digits to generate: ");
+                int digits = scanner.nextInt();
+                System.out.println("Pi: " + PiGenerator.computePi(digits));
+                break;
 
             default:
                 System.out.println("Invalid choice!");
