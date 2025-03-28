@@ -29,5 +29,5 @@ bin/
 .DS_Store
 
 ### pi files ###
-PeekingInsidePi/data/1b-pi-digit.txt
-PeekingInsidePi/data/1m-pi-digit.txt
+data/1b-pi-digit.txt
+data/1m-pi-digit.txt
