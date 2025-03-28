@@ -11,7 +11,7 @@ public class PiSearch1M {
 
     public static int search(String sequence) {
         try {
-            String piDigits = loadPiFromFile("data/pi_1million.txt");
+            String piDigits = loadPiFromFile("data/1m-pi-digit.txt");
             return piDigits.indexOf(sequence);
         } catch (IOException e) {
             System.out.println("Error loading Pi file: " + e.getMessage());
